@@ -8,7 +8,7 @@ public class DataBase {
         try {
             String url = "jdbc:postgresql://localhost:5432/PIA";
             String user = "postgres";
-            String password = "QZPMwxon";
+            String password = "pass";
             connection = DriverManager.getConnection(url, user, password);
         } catch (Exception e) {
             System.out.println(e);
