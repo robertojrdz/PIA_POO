@@ -16,7 +16,7 @@ public class InputUtils {
     public static String reqString(String msg) {
         System.out.print(msg);
         String cadena = scanner.nextLine();
-        
+
         if (cadena.length() == 0) {
             cadena = scanner.nextLine();
         }
